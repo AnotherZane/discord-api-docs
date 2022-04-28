@@ -12,6 +12,7 @@ When an app is performing an eligible action using the APIs, it can pass an `X-A
 
 | Field                  | Type                                                                                                         | Description                                                 |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| application_commands   | array of [application command](#DOCS_INTERACTIONS_APPLICATION_COMMANDS/application-command-object) objects   | List of application commands found in the audit log         |
 | audit_log_entries      | array of [audit log entry](#DOCS_RESOURCES_AUDIT_LOG/audit-log-entry-object) objects                         | List of audit log entries, sorted from most to least recent |
 | guild_scheduled_events | array of [guild scheduled event](#DOCS_RESOURCES_GUILD_SCHEDULED_EVENT/guild-scheduled-event-object) objects | List of guild scheduled events found in the audit log       |
 | integrations           | array of partial [integration](#DOCS_RESOURCES_GUILD/integration-object) objects                             | List of partial integration objects                         |
